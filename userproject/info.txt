@@ -1,0 +1,2 @@
+you can make a super user by 
+python manage.py createsuperuser

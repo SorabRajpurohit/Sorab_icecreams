@@ -1,0 +1,26 @@
+first you need run command in terminal django-admin startproject hello 
+
+open hello folder in vs and run command python manage.py runserver
+
+than you make an app by run command python manage.py startapp home
+
+than you make urls.py in app and copy some code from hello's urls.py
+
+for chacking and making tables for authentication we need to run 
+
+ python manage.py makemigrations (to check changes)
+
+ python manage.py migrate
+
+Now you can make a superuser by running command in terminal=
+python manage.py createsuperuser
+
+
+for makeing migration file - 
+python manage.py makemigration 
+
+you can use python shell in terminal by=
+python manage.py shell
+afet that you can use=
+from home.models import Contact
+and do all your  quaries  like slcing, filtering etc.
